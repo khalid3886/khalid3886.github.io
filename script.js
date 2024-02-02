@@ -33,3 +33,11 @@ document.getElementById("resume-button").addEventListener('click',()=>{
   link.click();
   window.open("https://drive.google.com/file/d/15e-alzZDHghqxxXY8bCtB-P2npnRb1cr/view?usp=drive_link")
 })
+document.getElementById("resume-button-1").addEventListener('click',()=>{
+  var link = document.createElement('a');
+  link.href = './assets/portfolio.pdf';
+  link.target = '_blank';
+  link.download = 'resume.pdf';
+  link.click();
+  window.open("https://drive.google.com/file/d/15e-alzZDHghqxxXY8bCtB-P2npnRb1cr/view?usp=drive_link")
+})
