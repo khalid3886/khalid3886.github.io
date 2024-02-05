@@ -84,8 +84,10 @@ a:hover {
 
 .hamburger-menu {
   position: fixed;
-  top: 20px; 
-  right: 20px;
+  top: 0;
+  right: 0;
+  margin-right: 2rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   cursor: pointer;
