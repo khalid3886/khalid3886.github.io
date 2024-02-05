@@ -643,7 +643,7 @@ margin-bottom: 2rem;
 
  /* github */
 
- #github-statistics{
+ /* #github-statistics{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -651,13 +651,27 @@ margin-bottom: 2rem;
   gap: 5rem;
   margin-top: 10rem;
  }
-
+*/
 
  .git{
   border-radius: 10px;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
  }
 
- .git:hover{
-  transform: scale(1.05);
- }
+ #github-statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 3rem auto 2rem;
+  width: 40%;
+}
+
+@media screen and (max-width: 1024px) {
+  .calendar-container {
+    margin: 3rem auto 1rem;
+    width: 90%;
+  }
+  .github-statistics {
+    width: 80%;
+  }
+}
