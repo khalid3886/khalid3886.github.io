@@ -19,25 +19,25 @@ document.getElementById("resume-link").addEventListener('click',()=>{
 
 document.getElementById("resume-button-2").addEventListener('click',()=>{
   var link = document.createElement('a');
-  link.href = './assets/portfolio.pdf';
+  link.href = './assets/mohd-khalid-resume.pdf';
   link.target = '_blank';
-  link.download = 'resume.pdf';
+  link.download = 'mohd-khalid-resume.pdf';
   link.click();
   window.open("https://drive.google.com/file/d/15e-alzZDHghqxxXY8bCtB-P2npnRb1cr/view?usp=drive_link")
 })
 document.getElementById("resume-button").addEventListener('click',()=>{
   var link = document.createElement('a');
-  link.href = './assets/portfolio.pdf';
+  link.href = './assets/mohd-khalid-resume.pdf';
   link.target = '_blank';
-  link.download = 'resume.pdf';
+  link.download = 'mohd-khalid-resume.pdf';
   link.click();
   window.open("https://drive.google.com/file/d/15e-alzZDHghqxxXY8bCtB-P2npnRb1cr/view?usp=drive_link")
 })
 document.getElementById("resume-button-1").addEventListener('click',()=>{
   var link = document.createElement('a');
-  link.href = './assets/portfolio.pdf';
+  link.href = './assets/mohd-khalid-resume.pdf';
   link.target = '_blank';
-  link.download = 'resume.pdf';
+  link.download = 'mohd-khalid-resume.pdf';
   link.click();
   window.open("https://drive.google.com/file/d/15e-alzZDHghqxxXY8bCtB-P2npnRb1cr/view?usp=drive_link")
 })
