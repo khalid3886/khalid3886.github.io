@@ -113,7 +113,7 @@
 
 @media only screen and (max-width: 1200px) {
   .wrapper {
-      width: 90%;
+      width: 100%;
   }
 
   .project-card {
@@ -131,8 +131,8 @@
   .project-card {
       width: 100%;
       margin-bottom: 4rem;
-      margin-left: 2rem;
-      margin-right: 2rem; /* Adjust as needed */
+      /* margin-left: 2rem; */
+      /* margin-right: 2rem; */
   }
 
   .project-card .icon {

@@ -403,7 +403,7 @@ section {
   .wrapper {
     display: flex;
     flex-wrap: wrap;
-    padding: 5rem;
+    padding: 2rem;
     gap: 3%;
     /* justify-content: space-between; */
 }
@@ -666,8 +666,15 @@ margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
-  margin: 3rem auto 2rem;
-  width: 40%;
+  align-items: center;
+}
+
+.react-activity-calendar{
+  margin-top: 2rem;
+}
+
+#github-statistics img{
+  max-width: 70%;
 }
 
 @media screen and (max-width: 1024px) {
