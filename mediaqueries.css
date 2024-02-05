@@ -22,6 +22,9 @@
     .experience-details-container {
       margin-top: 2rem;
     }
+    #skills{
+      margin-top: 2rem;
+    }
     #home,
     .section-container {
       display: block;
@@ -63,10 +66,14 @@
       margin-bottom: 2rem;
     }
     .about-containers,
-    .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
     }
+    .contact-info-upper-container{
+      flex-direction: column;
+      gap: 1rem;
+    }
+
     .contact-info-container {
       margin: 0;
     }
@@ -123,7 +130,7 @@
 
   .project-card {
       width: 100%;
-      margin-bottom: 10px; /* Adjust as needed */
+      margin-bottom: 4rem; /* Adjust as needed */
   }
 
   .project-card .icon {
