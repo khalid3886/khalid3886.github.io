@@ -41,3 +41,4 @@ document.getElementById("resume-button-1").addEventListener('click',()=>{
   link.click();
   window.open("https://drive.google.com/file/d/15e-alzZDHghqxxXY8bCtB-P2npnRb1cr/view?usp=drive_link")
 })
+
