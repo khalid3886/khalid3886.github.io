@@ -110,7 +110,7 @@
 
 
   /* media-query.css */
-
+/* 
 @media only screen and (max-width: 1200px) {
   .wrapper {
       width: 100%;
@@ -124,23 +124,21 @@
 
 @media only screen and (max-width: 900px) {
   .wrapper {
-      width: 100%; /* Adjust as needed */
+      width: 100%;
 
   }
 
   .project-card {
       width: 100%;
       margin-bottom: 4rem;
-      /* margin-left: 2rem; */
-      /* margin-right: 2rem; */
   }
 
   .project-card .icon {
-      left: 10px; /* Adjust as needed */
+      left: 10px;
   }
   
   .project-card:nth-child(odd) {
-      clear: both; /* Start a new row for odd-numbered cards */
+      clear: both; 
   }
-}
+} */
 
