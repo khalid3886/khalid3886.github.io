@@ -449,7 +449,7 @@ section {
 .skill-icon {
   text-align: center;
   position: relative;
-  animation: rotateY 4s linear infinite; /* Use the "rotateY" animation with a linear timing function and infinite repeat */
+  /* animation: rotateY 4s linear infinite; */
 }
 
 .skill-icon img {
