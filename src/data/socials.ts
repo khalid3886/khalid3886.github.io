@@ -5,7 +5,7 @@ const socials = {
 
   email: "mailto:mohdkhalid3886@gmail.com",
 
-  resume: "/resume.pdf",
+  resume: "/Mohd_Khalid_Backend_AI_Resume.pdf",
 };
 
 export default socials;

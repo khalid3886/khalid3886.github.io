@@ -15,7 +15,7 @@ const profile = {
 
   phone: "+91-9760674679",
 
-  resume: "/resume.pdf",
+  resume: "/Mohd_Khalid_Backend_AI_Resume.pdf",
 
   about: `
 Software Engineer specializing in backend engineering, distributed systems
