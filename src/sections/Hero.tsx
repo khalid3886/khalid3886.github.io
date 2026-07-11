@@ -17,7 +17,9 @@ export default function Hero() {
 
           <div>
 
-            <Badge>Backend • AI • Distributed Systems</Badge>
+           <div className="pt-10 sm:pt-6 lg:pt-0">
+  <Badge>Backend • AI • Distributed Systems</Badge>
+</div>
 
             <h1 className="mt-8 text-5xl font-bold leading-tight md:text-6xl">
               {profile.name}
@@ -47,6 +49,7 @@ export default function Hero() {
               <Button
                 href={socials.github}
                 variant="secondary"
+                target="_blank"
               >
                 GitHub
               </Button>
@@ -54,6 +57,7 @@ export default function Hero() {
               <Button
                 href={socials.linkedin}
                 variant="secondary"
+                target="_blank"
               >
                 LinkedIn
               </Button>
