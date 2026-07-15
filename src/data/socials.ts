@@ -1,3 +1,5 @@
+import { resumeLink } from "./resume";
+
 const socials = {
   github: "https://github.com/khalid3886",
 
@@ -5,7 +7,7 @@ const socials = {
 
   email: "mailto:mohdkhalid3886@gmail.com",
 
-  resume: "/Mohd_Khalid_Backend_AI_Resume.pdf",
+  resume: resumeLink,
 };
 
 export default socials;
