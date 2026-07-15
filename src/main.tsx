@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "@fontsource/inter/index.css";
 
+/// comment
+
 import App from "./App";
 
 import "./styles/globals.css";
